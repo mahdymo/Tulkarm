@@ -161,4 +161,4 @@ Before running the swarm robots simulation, make sure you have the following ins
 
 # Contributions 
 
-- ![Sarah Abdel-Motaleb](https://www.linkedin.com/in/sarahmotaleb/)
+- [Sarah Abdel-Motaleb](https://www.linkedin.com/in/sarahmotaleb/)
