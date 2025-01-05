@@ -1,0 +1,41 @@
+version: '3.9'
+services:
+  robot1:
+    build: .
+    networks:
+      swarm_net:
+    environment:
+      - ROBOT_ID=1
+
+  robot2:
+    build: .
+    networks:
+      swarm_net:
+    environment:
+      - ROBOT_ID=2
+
+  robot3:
+    build: .
+    networks:
+      swarm_net:
+    environment:
+      - ROBOT_ID=3
+
+  robot4:
+    build: .
+    networks:
+      swarm_net:
+    environment:
+      - ROBOT_ID=4
+
+  mqtt_broker:
+    image: eclipse-mosquitto
+    ports:
+      - "1883:1883"
+    volumes:
+     - ./mosquitto.conf:/mosquitto/config/mosquitto.conf
+    networks:
+      swarm_net:
+networks:
+  swarm_net:
+    driver: bridge
