@@ -159,3 +159,6 @@ Before running the swarm robots simulation, make sure you have the following ins
    - Ensure that the MQTT broker and the robot containers are on the same network (this is automatically handled by Docker).
 
 
+# Contributions 
+
+- ![Sarah Abdel-Motaleb](https://www.linkedin.com/in/sarahmotaleb/)
